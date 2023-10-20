@@ -45,11 +45,8 @@ tryAgain.onclick = () => {
     getRecipe();
 };
 
-i = 106
-
 function getRecipe() {
-    //const randomRecipeNumber = String(Math.floor(Math.random() * 200) + 1);
-    randomRecipeNumber = i
+    const randomRecipeNumber = String(Math.floor(Math.random() * 200) + 1);
     if(currentNumber == randomRecipeNumber){
         getRecipe()
     }
@@ -64,7 +61,6 @@ function getRecipe() {
         dinnerDesc.innerHTML = description;
         dinnerImg.src = image;
     }
-    i += 1;
   }
 
 
