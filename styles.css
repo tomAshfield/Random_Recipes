@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font: bold 2.1875rem/2.875rem "Source Serif Pro",serif;
+    overflow: hidden;
 }
 
 h1{
@@ -150,7 +151,6 @@ h2{
     position: relative;
     width: 90%;
     height: 33%;
-    overflow: scroll;
     top: 11%;
     left: 5%;
     line-height: 150%;
